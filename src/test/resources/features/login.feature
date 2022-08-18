@@ -95,7 +95,7 @@ Feature: Fidexio Login Functionality
       | salesmanager |
 
 
-  @FIDEXI-530 
+  @FIDEXI-530 @regression
   Scenario Outline:  US-001 | TC-007 Verify that the 'Enter' key of the keyboard is working correctly on the login page with valid credentials
     When User enters username "<username>"
     When User enters password "<password>"
